@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageBeforeSigning.master.cs" Inherits="MasterPageBeforeSigning" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="Stylesheet" type="text/css" href="StyleSheet.css" />
+</head>
+<body>
+    
+<center>
+  <table>
+        <tr style="width:100%;background-color:#00DD00;" >
+            <td >
+                    <a style="font-size:20px" href="HomePage2.aspx" >Home Page</a>
+                </td>
+            <td>
+                    <a style="font-size:20px" href="Signup.aspx" >SignUp</a>
+                </td>
+                 <td>
+                    <a style="font-size:20px" href="SignIn.aspx" >SignIn</a>
+                </td>
+           
+        </tr>
+        </table>
+        </center>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>

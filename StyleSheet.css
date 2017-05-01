@@ -1,0 +1,16 @@
+﻿.left{text-align:left;}
+    h1,h2{text-align:center; color:darkslategray;}
+    body{background-color:lightgrey}
+    table{padding: 6px; text-align:center; width: 50%; margin-left: auto; margin-right: auto;}
+    p{text-align:center}
+  
+    
+    div {border-radius: 5px;background-color: #f2f2f2;padding: 20px;text-align:center;border-style:groove;}
+    input[type=submit] {width: 12%;background-color: #4CAF50;color: white; padding: 7px 20px;margin: 8px 0;border: none; border-radius: 4px;cursor: pointer;}
+     input[type=button] {width: 12%;background-color: #4CAF50;color: white; padding: 7px 20px;margin: 8px 0;border: none; border-radius: 4px;cursor: pointer;}
+      input[type=reset] {width: 12%;background-color: #C0C0C0;color: black; padding: 7px 20px;margin: 8px 0;border: none; border-radius: 4px;cursor: pointer;}
+      
+      body 
+      {
+          font-family:Tahoma;
+          }
